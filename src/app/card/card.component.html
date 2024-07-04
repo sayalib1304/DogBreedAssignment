@@ -1,0 +1,18 @@
+<!-- <p>card works!</p> -->
+
+<div class="card">
+    <img [src]="breed.imgThumb" alt="{{ breed.breedName }}">
+    <!-- <div class="card-body">
+      <h5 class="card-title">{{ breed.breedName }}</h5>
+      <p class="card-text">{{ breed.breedType }}</p>
+      <p class="card-text">{{ breed.breedDescription }}</p>
+      <p class="card-text">Lifespan: {{ breed.minLifeSpan }} - {{ breed.maxLifeSpan }} years</p>
+    </div> -->
+    <div class="card-body">
+        <h5 class="card-title">{{ breed.breedName }}</h5>
+        <p class="card-text"><strong>Type:</strong> {{ breed.breedType }}</p>
+        <p class="card-text">{{ breed.breedDescription }}</p>
+        <p class="card-text"><strong>Lifespan:</strong> {{ breed.minLifeSpan }} - {{ breed.maxLifeSpan }} years</p>
+      </div>
+  </div>
+  
